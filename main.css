@@ -1,16 +1,50 @@
-html {
-    background: #ccebff;
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to bottom, rgba(255,255,245,1) 0%, rgba(170,221,235,1) 100%);
+    
+    font-family: 'Open Sans', sans-serif;
+}    
 
+.name{
+    text-transform: capitalize;
+    font-size: 48;
+    color: gray;
 }
 
-h1 {
-    text-align: center;
-    color: navy;
-    font-family: "Trebuchet MS";
-    font-size: 250%;
+.majors{
+    font-size: 16;
+    font-style: normal;
+    color: gray;
+}
+.wrapper {
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    align-items: center;
 }
 
-body {
-    text-align: center;
-    font-family: sans-serif;
+.left, .right {
+    margin: 5px;
+    max-width: 75%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left {
+    align-items: center;
+    justify-content: center;
+}
+.avi {
+    border-radius: 95%;
+    opacity: .92;
+    
+}
 }
